@@ -1,0 +1,10 @@
+=== Representative AFTER run (synchronized) ===
+=== Starting transactions with balance = $1000 ===
+Alice withdrew $50 | old balance = 1000 -> new balance = 950
+Bob withdrew $50 | old balance = 950 -> new balance = 900
+Charlie withdrew $50 | old balance = 900 -> new balance = 850
+Diana withdrew $50 | old balance = 850 -> new balance = 800
+ATM-Kiosk withdrew $20 | old balance = 800 -> new balance = 780
+...
+
+Final reported by program: consistent across runs (deterministic for the same workload)

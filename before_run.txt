@@ -1,0 +1,15 @@
+=== Representative BEFORE run (unsynchronized) ===
+=== Starting transactions with balance = $1000 ===
+Diana withdrew $50 | old balance = 1000 -> new balance = 950
+Charlie withdrew $50 | old balance = 1000 -> new balance = 950
+Bob withdrew $50 | old balance = 1000 -> new balance = 950
+ATM-Kiosk withdrew $20 | old balance = 1000 -> new balance = 980
+Alice withdrew $50 | old balance = 1000 -> new balance = 950
+Diana withdrew $50 | old balance = 950 -> new balance = 900
+Charlie withdrew $50 | old balance = 950 -> new balance = 900
+Alice withdrew $50 | old balance = 950 -> new balance = 900
+ATM-Kiosk withdrew $20 | old balance = 950 -> new balance = 930
+Bob withdrew $50 | old balance = 950 -> new balance = 900
+...
+
+Final (varied) reported by program: see runs (not deterministic)
